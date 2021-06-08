@@ -3,6 +3,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 button {
@@ -18,4 +19,44 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.input-container input {
+  font-size: 3rem;
+  text-align: center;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background-color: transparent;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.btn {
+  position: relative;
+  bottom: -10px;
+  border: none;
+  font-size: 2rem;
+  color: green;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-start {
+  left: 225px;
+}
+
+.btn-pause {
+  right: 225px;
 }
