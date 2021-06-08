@@ -7,10 +7,6 @@ body {
   background-color: #010110;
 }
 
-button {
-  cursor: pointer;
-}
-
 .timer-container {
   position: relative;
 }
@@ -51,6 +47,7 @@ button {
   opacity: 0.8;
   transition: opacity 0.3s ease;
   background: transparent;
+  cursor: pointer;
 }
 .btn:hover {
   opacity: 1;
