@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
 body {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  font-family: "Orbitron", sans-serif;
   background-color: #010110;
 }
 
@@ -21,12 +24,13 @@ body {
 .input-container input {
   font-size: 3rem;
   text-align: center;
-  width: 50%;
+  width: 75%;
   display: block;
   margin: 0 auto;
   border: none;
   background-color: transparent;
   color: green;
+  font-family: inherit;
 }
 
 .input-container input:focus {
@@ -54,9 +58,19 @@ body {
 }
 
 .btn-start {
-  left: 225px;
+  left: 285px;
 }
 
 .btn-pause {
-  right: 225px;
+  right: 285px;
+}
+
+@media (max-width: 992px) {
+  .btn-start {
+    left: 50px;
+  }
+
+  .btn-pause {
+    right: 50px;
+  }
 }
