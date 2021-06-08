@@ -4,6 +4,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background-color: #010110;
 }
 
 button {
@@ -29,6 +30,7 @@ button {
   margin: 0 auto;
   border: none;
   background-color: transparent;
+  color: green;
 }
 
 .input-container input:focus {
@@ -48,6 +50,7 @@ button {
   color: green;
   opacity: 0.8;
   transition: opacity 0.3s ease;
+  background: transparent;
 }
 .btn:hover {
   opacity: 1;
